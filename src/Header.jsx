@@ -4,19 +4,18 @@ function Header(){
 
     return(
         <header>
-            <h1>Rhytz Archival</h1>
-            <nav class="top-bar fixed">
-                <ul>
-                <li><a href="a">Home</a></li>
-                <li><a href="a">About</a></li>
-                <li><a href="a">Services</a></li>
-                <li><a href="a">Contact</a></li>
-                </ul>
-            </nav>
-            <hr></hr>
-        </header>
-
+    <div class="name">Rhytz Archival</div>
+    <nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
     );
+
 
 }
 
